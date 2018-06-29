@@ -2,4 +2,4 @@
 1. Car.
 1. Car.
 2. House.
-
+3. Sunny day
