@@ -1,5 +1,7 @@
 package com.mak_keywa;
 
+import java.util.Calendar;
+
 public class Person {
 
 	private String name;
@@ -33,7 +35,8 @@ public class Person {
 	}
 
 	public int age() {
-		return 2018 - this.birthYear;
+		int yearnow = Calendar.YEAR;
+		return yearnow - this.birthYear;
 	}
 
 	public void input(String name, int birthYear) {
