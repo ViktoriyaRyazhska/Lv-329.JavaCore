@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Homework1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Double Pi = 3.141592654;
+
         // Task No.1
         System.out.println("Please input the value of the radius of the circle:");
         Double radius = scanner.nextDouble();
-        Double perimeter = 2 * Pi * radius;
-        Double area = Pi * Math.pow(radius, 2);
+        Double perimeter = 2 * Math.PI * radius;
+        Double area = Math.PI * Math.pow(radius, 2);
         System.out.println("The value of the perimeter of the circle equal: " + perimeter + ".");
         System.out.println("The value of the area of the circle equal: " + area + ".\n");
 
