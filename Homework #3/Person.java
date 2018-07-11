@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Person {
     private String name;
     private Integer birthYear;
@@ -22,7 +24,8 @@ public class Person {
     }
 
     public Integer age() {
-        return (2018 - this.birthYear);
+        Integer variable = LocalDate.now().getYear();
+        return variable - birthYear;
     }
     public void input(String name, Integer birthYear) {
         this.name = name;
