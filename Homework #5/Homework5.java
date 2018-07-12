@@ -12,27 +12,25 @@ public class Homework5 {
         System.out.println("Amount of the days in this month equal: " + variableArray1[variable1] + ".");
 
         // Task No.2
-        Integer variableArray2[] = {-1, 9, -2, 8, -3, 7, -4, 6, -5, 0};
-        Integer variable21 = 0;
+        Integer variableArray2[] = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1};
+        Integer variable21 = 0, variable22;
         for (variableLoopCounter = 0; variableLoopCounter < 5; variableLoopCounter++) {
-            if (variableArray2[variableLoopCounter] >= 0) {
-                variable21 = 0;
-            }
-            else {
+            if (variableArray2[variableLoopCounter] < 0) {
                 variable21++;
             }
         }
-        if (variable21 == 0) {
-            for (variableLoopCounter = 0; variableLoopCounter < 5; variableLoopCounter++) {
-                variable21 += variableArray2[variableLoopCounter];
+        if (variable21 > 0) {
+            variable22 = 1;
+            for (variableLoopCounter = 5; variableLoopCounter < variableArray2.length; variableLoopCounter++) {
+                variable22 *= variableArray2[variableLoopCounter];
             }
         } else {
-            variable21 = 1;
-            for (variableLoopCounter = 5; variableLoopCounter < variableArray2.length; variableLoopCounter++) {
-                variable21 *= variableArray2[variableLoopCounter];
+            variable22 = 0;
+            for (variableLoopCounter = 0; variableLoopCounter < 5; variableLoopCounter++) {
+                variable22 += variableArray2[variableLoopCounter];
             }
         }
-        System.out.println(variable21);
+        System.out.println(variable22);
 
         // Task No.3
         Integer variableArray31[] = new Integer[5], variableArray32[] = new Integer[5];
