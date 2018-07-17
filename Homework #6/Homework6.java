@@ -1,7 +1,7 @@
 public class Homework6 {
     public static void main(String[] args) {
         Integer variableLoopCounter1, variableLoopCounter2;
-/*
+
         // Task No.1
         Bird variable1[] = new Bird[4];
         variable1[0] = new Eagle();
@@ -11,7 +11,7 @@ public class Homework6 {
         for (variableLoopCounter1 = 0; variableLoopCounter1 < variable1.length; variableLoopCounter1++) {
             System.out.println(variable1[variableLoopCounter1] + "\n");
         }
-*/
+
         // Task No.2
         Employee variable2[] = new Employee[4];
         variable2[0] = new SalariedEmployee(1.1, 1);
