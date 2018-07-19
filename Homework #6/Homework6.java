@@ -16,7 +16,7 @@ public class Homework6 {
         Employee variable2[] = new Employee[4];
         variable2[0] = new SalariedEmployee(1.1, 1);
         variable2[1] = new SalariedEmployee(1.2, 1);
-        variable2[2] = new ContractEmployee( 1.1);
+        variable2[2] = new ContractEmployee(1.1);
         variable2[3] = new ContractEmployee(1.2);
         for (variableLoopCounter1 = 0; variableLoopCounter1 < variable2.length; variableLoopCounter1++) {
             variable2[variableLoopCounter1].setEmployeeId("000000" + variableLoopCounter1);
