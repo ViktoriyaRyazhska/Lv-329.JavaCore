@@ -2,14 +2,14 @@ import java.util.*;
 
 public class Homework7 {
     public static Set<Integer> union(Set<Integer> set1, Set<Integer> set2) {
-        Set<Integer> variable = new TreeSet<>();
+        Set<Integer> variable = new HashSet<>();
         variable.addAll(set1);
         variable.addAll(set2);
         return variable;
     }
 
     public static Set<Integer> intersect(Set<Integer> set1, Set<Integer> set2) {
-        Set<Integer> variable = new TreeSet<>();
+        Set<Integer> variable = new HashSet<>();
         variable.addAll(set1);
         variable.retainAll(set2);
         return variable;
@@ -17,10 +17,10 @@ public class Homework7 {
 
     public static void main(String[] args) {
         // Task No.1
-        Set<Integer> variable11 = new TreeSet<>();
+        Set<Integer> variable11 = new HashSet<>();
         variable11.add(0);
         variable11.add(1);
-        Set<Integer> variable12 = new TreeSet<>();
+        Set<Integer> variable12 = new HashSet<>();
         variable12.add(0);
         variable12.add(2);
         System.out.println("The values of the set #1:\n" + variable11);
@@ -51,7 +51,7 @@ public class Homework7 {
                 }
             }
         }
-        if (variable20 > 10) {
+        if (variable20 > personMap.size()) {
             System.out.println("\nThere are at least two persons with the same First Name.\n");
         } else {
             System.out.println("\nThere are no at least two persons with the same First Name.\n");
@@ -75,8 +75,8 @@ public class Homework7 {
         for (Student variable : variable3) {
             System.out.println(variable);
         }
-        System.out.println("\nThe list of the students sorted by the number of the course:");
         variable3.sort(new CourseComparator());
+        System.out.println("\nThe list of the students sorted by the number of the course:");
         for (Student variable : variable3) {
             System.out.println(variable);
         }

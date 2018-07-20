@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -25,14 +24,12 @@ public class Student {
         return course;
     }
 
-    public void printStudents(List students, Integer course) {
-        List<Student> variable = new ArrayList<>();
-        variable.addAll(students);
-        Iterator<Student> iterator = variable.iterator();
+    public static void printStudents(List students, Integer course) {
+        Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
-            Student variable0 = iterator.next();
-            if (variable0.getCourse().equals(course)) {
-                System.out.println(variable0);
+            Student variable = iterator.next();
+            if (variable.getCourse().equals(course)) {
+                System.out.println(variable);
             }
         }
     }
