@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Homework9 {
+    static Scanner scanner = new Scanner(System.in);
+
     private static Double div(Double variable1, Double variable2) {
         if (variable2 == 0) {
             throw new ArithmeticException("Please input the value of the second variable not equal zero!");
@@ -9,13 +11,10 @@ public class Homework9 {
     }
 
     private static Integer readNumber(Integer variable1, Integer variable2) throws NumberFormatException, Exception1, Exception2 {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Please input the value of the variable:");
         Integer variable = Integer.parseInt(scanner.nextLine());
         if (variable1 < variable2) {
-            if ((variable >= variable1) && (variable <= variable2)) {
-
-            } else {
+            if (!((variable >= variable1) && (variable <= variable2))) {
                 throw new Exception1("Please input the different value of the variable!");
             }
             return variable;
@@ -39,8 +38,6 @@ public class Homework9 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         // Task No.1
         System.out.println("Please input the values of the two variables:");
         Double variable11 = scanner.nextDouble();
