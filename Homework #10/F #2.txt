@@ -1,0 +1,9 @@
+The number of the rows in 'F #1.txt' equal: 33.
+
+The longest row in 'F #1.txt' is:
+
+'- The whole studying process will be controlled by experienced teachers and experts in respective directions, which will certainly effect your professional growth in development of Web applications using Java programming language.'
+
+First name & Last name: Taras Havryliv.
+
+Birthday date: 09/22/1998 (September 22, 1998).

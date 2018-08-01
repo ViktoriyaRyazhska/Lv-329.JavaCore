@@ -1,3 +1,9 @@
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Homework10 {
     public static void main(String[] args) {
         // Task No.1
@@ -40,6 +46,41 @@ public class Homework10 {
         thread31.start();
 
         // Task No.4
-        /* PLEASE INPUT HERE */
+        FileReader fileReader;
+        FileWriter fileWriter;
+        Scanner scanner;
+
+        String variableFile1 = "src/F #1.txt";
+        String variableFile2 = "src/F #2.txt";
+        List<String> variableList = new ArrayList<>();
+        Integer variableLoopCounter, variable42 = 0, variable44 = 0;
+        try {
+            fileReader = new FileReader(variableFile1);
+            scanner = new Scanner(fileReader);
+            String variable41;
+            while ((variable41 = scanner.nextLine()) != null) {
+                variableList.add(variable41);
+                ++variable42;
+            }
+            scanner.close();
+        } catch (Exception variableException) {
+            variableException.getStackTrace();
+        }
+        Integer variable43 = variableList.get(0).length();
+        for (variableLoopCounter = 0; variableLoopCounter < variableList.size(); variableLoopCounter++) {
+            if (variableList.get(variableLoopCounter).length() > variable43) {
+                variable43 = variableList.get(variableLoopCounter).length();
+                variable44 = variableLoopCounter;
+            }
+        }
+        try {
+            fileWriter = new FileWriter(variableFile2);
+            fileWriter.write("The number of the rows in 'F #1.txt' equal: " + variable42 + ".\n");
+            fileWriter.write("The longest row in 'F #1.txt' is:\n'" + variableList.get(variable44) + "'\n");
+            fileWriter.write("First name & Last name: Taras Havryliv.\nBirthday date: 09/22/1998 (September 22, 1998).");
+            fileWriter.close();
+        } catch (Exception variableException) {
+            variableException.getStackTrace();
+        }
     }
 }

@@ -1,0 +1,33 @@
+Java Development
+Development of Web applications using Java programming language
+What do we suggest?
+- Within the course you will be able to get theoretical and practical knowledge, necessary for designing, developing and testing middle-sized and large-sized Web applications.
+- The whole studying process will be controlled by experienced teachers and experts in respective directions, which will certainly effect your professional growth in development of Web applications using Java programming language.
+- Curriculum of Java Development course enables receiving hands-on experience in such spheres:
+For whom?
+- For those, who have solid knowledge of Java language and precise understanding of OOP principles;
+- For those, who have basic knowledge in JavaScript, HTML, CSS, SQL and understanding how clientserver solutions work;
+- For those, whose level of English is Intermediate+;
+- For those, who are ready to be involved in education process at the IT Academy 6-8 hours every day
+What is the minimum technical knowledge required to enter the course and which resources can be used for preparation?
+- Programming using Java language
+https://docs.oracle.com/javase/tutorial/
+- Basic knowledge of ?SS, HTML and JavaScript
+https://www.w3schools.com/html/
+https://www.w3schools.com/css/
+https://www.w3schools.com/js/
+- Basic knowledge of SQL
+https://www.w3schools.com/sql/
+- Minimal experience in dealing with system of Git versions control
+https://git-scm.com/book/en/v2
+- Basic understanding of Client - Server  and Web development connection
+https://en.wikipedia.org/wiki/Client-server_model
+* What can bring advantages at the interview with an expert?
+- Basic knowledge of HTML\CSS and javascript;
+- Basic knowledge of SQL and RDBMS;
+- Knowledge and hands-on experience of Web applications development using Java language;
+- Hands-on experience of dealing with system of Git versions control;
+- Basic knowledge of OOD, SOLID principles;
+- Familiarity with Agile methodologies and principles (SCRUM in particular);
+- Link on developed by you java project on GitHub
+* We don`t specify literature for this section and don`t put these questions on the obligatory list. But awareness of something, noted above, will be your advantage at the interview with a technical expert.
