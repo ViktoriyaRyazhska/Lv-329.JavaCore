@@ -7,6 +7,8 @@ public class Task4 {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void task4() {
+
+		System.out.println("4.Input string for calculate number of loud letters");
 		String str = sc.nextLine();
 		int count = 0;
 
@@ -17,7 +19,7 @@ public class Task4 {
 			count++;
 		}
 
-		System.out.println(count);
+		System.out.println("result: " + count);
 
 	}
 

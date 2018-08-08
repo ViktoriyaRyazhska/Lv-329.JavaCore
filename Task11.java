@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Task11 {
 	
 	
-	Scanner sc = new Scanner(System.in);
+	static Scanner sc = new Scanner(System.in);
 	
-	public void task11() {
+	public static void task11() {
 		System.out.println("Input credit card number");
 		long number = sc.nextLong();
 

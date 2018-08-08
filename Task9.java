@@ -10,7 +10,7 @@ public class Task9 {
         return variable;
     }
 
-    public static void main(String[] args) {
+    public static void task9() {
         System.out.println("Please input the value of the variable:");
         Scanner scanner = new Scanner(System.in);
         Integer variable = scanner.nextInt();
