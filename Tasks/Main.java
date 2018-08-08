@@ -1,9 +1,13 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 		Scanner s = new Scanner(System.in);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Select task number");
 		switch (s.nextInt()) {
 		case 1:
@@ -19,8 +23,8 @@ public class Main {
 			t3.task3(s);
 			break;
 		case 4:
-			// Task4 t4 = new Task4();
-			// t4.task4(s);
+			 Task4 t4 = new Task4();
+			 t4.task4(br);
 			break;
 		case 5:
 			Task5 t5 = new Task5();
