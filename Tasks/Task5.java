@@ -11,7 +11,7 @@ public class Task5 {
 		System.out.println("Input word to check for palindrome:");
 		input = sc.next();
 		for (int i = 0; i < input.length() / 2; i++) {
-			j = input.length()-i-1;
+			j = input.length() - i - 1;
 			a = input.charAt(i);
 			b = input.charAt(j);
 			if (a != b) {

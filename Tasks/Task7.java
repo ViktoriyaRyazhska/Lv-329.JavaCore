@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Task7 {
 	static int input;
-	static int res = 1;
 
 	public void task7(Scanner sc) {
+		int res = 1;
 		System.out.println("Input number  to calculate !n:");
 		input = sc.nextInt();
 		for (int i = 2; i <= input; i++) {
