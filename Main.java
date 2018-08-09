@@ -49,10 +49,11 @@ public class Main {
 //			case 13:
 //				Task13.task13();
 //				break;
-//			case 14:
-//				Task14.task14();
-//				break;
+			case 14:
+				Task14.task14();
+				break;
 			case 0:
+				System.out.println("Program closed");
 				System.exit(0);
 			}
 
