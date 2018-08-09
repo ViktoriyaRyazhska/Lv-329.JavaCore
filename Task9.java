@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class Task9 {
     private static Integer variableMethod() {
@@ -12,8 +11,7 @@ public class Task9 {
 
     public static void task9() {
         System.out.println("Please input the value of the variable:");
-        Scanner scanner = new Scanner(System.in);
-        Integer variable = scanner.nextInt();
+        Integer variable = Main.sc.nextInt();
         Integer variable0 = 0;
         for (Integer variableLoopCounter = 0; variableLoopCounter < variable; variableLoopCounter++) {
             if (variableMethod() == 1) {

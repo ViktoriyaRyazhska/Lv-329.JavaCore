@@ -1,13 +1,8 @@
-import java.util.Scanner;
-
 public class Task11 {
-	
-	
-	static Scanner sc = new Scanner(System.in);
 	
 	public static void task11() {
 		System.out.println("Input credit card number");
-		long number = sc.nextLong();
+		long number = Main.sc.nextLong();
 
 		System.out.println(number + " is " + (isValid(number) ? "valid" : "invalid"));
 	}

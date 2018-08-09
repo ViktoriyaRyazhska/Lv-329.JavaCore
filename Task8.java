@@ -1,11 +1,8 @@
-import java.util.Scanner;
-
 public class Task8 {
 
 	public static void task8() {
 		System.out.println("Please input the value of the variable:");
-		Scanner scanner = new Scanner(System.in);
-		Integer variable = scanner.nextInt();
+		Integer variable = Main.sc.nextInt();
 		switch (variable.toString().length()) {
 		case 7: {
 			System.out.print((variable / 1000000) + " Millions ");
